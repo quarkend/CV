@@ -235,7 +235,7 @@ color: #958c2f;
 
     }
      .photo_hm, aside {
-    	flex: 1;
+    	flex: 2;
     	margin: 0 40px 0 0;
     }
 
