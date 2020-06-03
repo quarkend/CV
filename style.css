@@ -41,7 +41,7 @@ body {
 
 .photo_hm, aside {
   flex: 1;
-padding: 0 420 0 0px;
+padding: 0 0 0 0px;
 }
 
 
@@ -235,7 +235,7 @@ color: #958c2f;
 
     }
      .photo_hm, aside {
-    	flex: 2;
+    	flex: 1;
     	margin: 0 40px 0 0;
     }
 
