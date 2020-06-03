@@ -149,7 +149,8 @@ h2 i {
 
 
 .date {
-	margin: 16px 0 0 0;
+  margin: 16px 0 0 0;
+  
 }
 
 	.date i {
@@ -158,9 +159,17 @@ h2 i {
 	}
 
 .adresse {
-	margin: 0 0 16px 32px;
+	margin:0 16px 0 0 ;
 }
-
+.colonne_une
+{
+  width: 150px;
+}
+.colonne_deux
+{ 
+  padding-left: 250px;
+  margin-top: -60px;
+ }
 h3 {
 
 	margin: 18px 0;
@@ -210,8 +219,7 @@ color: #958c2f;
   {
   margin-left: 5px;
   }
-.colonne_deux
-{ padding-left: 250px; }
+
 
 
 	header {
@@ -226,6 +234,10 @@ color: #958c2f;
     	background: rgb(119, 118, 170);
 
     }
+     .photo_hm, aside {
+    	flex: 1;
+    	margin: 0 40px 0 0;
+    }
 
 	aside {
 		display: flex;
@@ -237,15 +249,12 @@ color: #958c2f;
 		flex-grow: 4;
 	}
 
-    .photo_hm, aside {
-    	flex: 1;
-    	margin: 0 40px 0 0;
-    }
+   
 
 
 
 	.name, main {
-    	flex: 3;
+    	flex: 2;
     }
 
     .conteneur_aside_main,.colonnes_principale {
