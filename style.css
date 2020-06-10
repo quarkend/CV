@@ -1,37 +1,37 @@
 body {
 	font-family:  'Times New Roman', sans-serif;
 	max-width: 1200px;
-	
+
 	margin: auto;
 }
 /*header*/
 
-   
+
    span.HINAFI
     {
     color:#525213 ;
    }
-   
+
    header {
-    text-align: center; 
+    text-align: center;
   }
-  
-  
+
+
   header h1 {
-    margin: 40px 30px 0 30px;
+    margin:4% 0% 0% 4%;;
     font-size: 3em;
   }
-  
+
   header h2 {
-    margin: 20px 30px;
+    margin: 1% 4%;
   }
-  
-  header .photo_hm 
+
+  header .photo_hm
   {
         background-color: #ffffff;
-      
+
       }
-  
+
 .underline {
   text-decoration: underline;
   text-decoration-color: #958c2f;
@@ -41,42 +41,42 @@ body {
 
 .photo_hm, aside {
   flex: 1;
-padding: 0 0 0 0px;
+
 }
 
 
 /*aside*/
 
 aside {
-  background-color: rgb(119, 118, 170) ;
-  
+  background-color: rgb(164, 180, 194) ;
+
 }
  .photo_hm
       {
 display: flex;
 justify-content: center;
 align-items: center;
-      height:200px;
+height: 11em;
       }
- 
+
       img
       {
         border-radius: 50%;
-
         width: 100px;
         height: 100px;
-        box-shadow: 0 0 5px 6px  rgb(119, 118, 170) ;
+        box-shadow: 0 0 5px 6px  #404040;
       }
 
 
 aside h2 {
 	background-color:#404040;
 
-	text-align: center;
+  text-align: center;
+  margin-top: 1em;
 }
 
 aside p, aside h3 {
-	padding: 0 15px;
+	padding: 0 5%;
 
 }
 
@@ -88,20 +88,16 @@ aside h3 {
 aside h3 + p {
 	margin-top: 0;
 }
-#zoneloisir
- {
-	text-align: center;
-	padding-bottom: 20px;
-}
+
 
  .icon{
       display: flex;
 
 
-      padding: 10px;
+      padding: 2%;
 
   margin:auto;
-   
+
       border-radius: 50%;
   border: 3px solid black;
     }
@@ -109,20 +105,25 @@ aside h3 + p {
 .loisirs {
 	display: flex;
 }
-
+.loisirs {
+  border-bottom-width: 0px;
+  border-bottom-style: solid;
+  padding-top: 0px;
+  padding-bottom: 4%;
+}
 .loisirs p {
 	flex: 1;
 }
 
 /*main */
 .colonneprincipale {
-  margin: 20px;
-  padding: 0px 0;
+  margin: 1.2em;
+  
   display: flex;
 }
-main p, main h3 
+main p, main h3
 {
-	padding: 0 15px;
+	padding: 0 3%;
 }
 
 main h2 {
@@ -130,42 +131,42 @@ main h2 {
 	margin: 30px;
 }
 h2 i {
-	color: #7dea00;
-	padding-right: 15px;
+	color: #958c2f;
+	padding-right: 1%;
 }
 
 
 .date {
-  margin: 16px 0 0 0;
-  width: 100px;
+  margin: 17% 0 0 0;
+  width: 9em;
 }
 
 	.date i {
-		padding-right: 0px;
+		padding-right: 9%;
 		color: #9d7fc7;
 	}
 
 .adresse {
-	margin:0 16px 0 0 ;
+  margin: 0 0 0 15%;
 }
 
 
 h3 {
 
-	margin: 18px 0;
+	margin: 4% 0;
 }
 
 #references .colonneprincipale{
-	
+
 
  display: flex;
-  
+
 }
  	/* material.icon */
 .material-icons.lens
 {
-font-size: 8px;
-color: #958c2f; 
+ font-size: 50%;
+color: #958c2f;
 
 }
 .school
@@ -184,23 +185,22 @@ color: #958c2f;
 {
   font-size: 12px;
   color:#958c2f;
-
+  padding-right: 4%;
 }
 
 
 
 /*Media Queries*/
 @media (min-width: 768px) and (orientation: landscape) {
-	.mobile {
-		display: none;
-  }
+
 
 .colonne_deux
-{ 
-  padding-right: 0px;
-padding-left: 5em;
+{
+  padding-right: 1%;
+  padding-left: 3em;
+}
+
  
- }
 
 
 	header {
@@ -212,25 +212,25 @@ padding-left: 5em;
     }
 
     header .photo_hm {
-    	background: rgb(119, 118, 170);
+    	background:  rgb(164, 180, 194);
 
     }
      .photo_hm, aside {
     	flex: 1;
-  
+
     }
 
 	aside {
 		display: flex;
 		flex-direction: column;
-		
+
 	}
 
 	#apropos {
 		flex-grow: 4;
 	}
 
- 
+
 
 
 	.name, main {
@@ -239,11 +239,27 @@ padding-left: 5em;
 
     .conteneur_aside_main,.colonnes_principale {
     	display: flex;
-    
+
     }
 
     .recomandationcolonne1, .recomandationcolonne2 {
       flex: 1;
-       
+
     }
+}
+@media screen and (max-width:380px) {
+
+  html {
+   font-size: 12px; /* rendre les polices plus petites pour mobile */
+  }
+
+  p {
+   font-size: 1rem /* cet élément est désormais équivalent à 12px */
+  }
+
+.colonneprincipale {
+  margin: 0.2em;
+
+  flex-direction: column;
+}
 }
