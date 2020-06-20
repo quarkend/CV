@@ -1,33 +1,42 @@
 body {
   font-family: 'Times New Roman', sans-serif;
   max-width: 1200px;
-margin: auto;
+  margin: auto;
 }
+
 /*header*/
 span.HINAFI {
-  color: #525213;
+  color: #03A9F4;
 }
+
 header {
   text-align: center;
 }
+
 header h1 {
   margin: 4% 0% 0% 4%;
   ;
   font-size: 3em;
 }
+
 header h2 {
   margin: 1% 4%;
 }
+
 header .photo_hm {
   background-color: #ffffff;
 }
+
 .underline {
   text-decoration: underline;
-  text-decoration-color: #958c2f;
+  text-decoration-color: #03A9F4;
 }
-h2,main h3 {
-	text-transform: uppercase;
+
+h2,
+main h3 {
+  text-transform: uppercase;
 }
+
 .photo_hm,
 aside {
   flex: 1;
@@ -37,7 +46,7 @@ aside {
 /*aside*/
 
 aside {
-  background-color:#958c2f;
+  background-color: #03A9F4;
 
 }
 
@@ -52,13 +61,13 @@ img {
   border-radius: 50%;
   width: 120px;
   height: 120px;
-  box-shadow: 0 0 5px 6px #525213;
+  box-shadow: 0 0 5px 6px #03A9F4;
 }
 
 
 aside h2 {
-  background-color: #525213;
-
+  background-color: #263238;
+  color: #03A9F4;
   text-align: center;
   margin-top: 1em;
 }
@@ -119,12 +128,12 @@ main h3 {
 }
 
 main h2 {
-  border-bottom: solid #525213 2px;
+  border-bottom: solid #03A9F4 2px;
   margin: 30px;
 }
 
 h2 i {
-  color: #52132d;
+  color: #03A9F4;
   padding-right: 1%;
 }
 
@@ -135,8 +144,14 @@ h2 i {
 }
 
 .date i {
-  padding-right: 9%;
-  color: #525213;
+  padding-right: 6%;
+  color: #03A9F4;
+  font-size: 10px;
+}
+
+.date .fa-circle {
+  font-size: 8px;
+
 }
 
 .adresse {
@@ -155,33 +170,6 @@ h3 {
 
   display: flex;
 
-}
-
-/* material.icon */
-.material-icons.lens {
-  font-size: 50%;
-  color: #958c2f;
-
-}
-
-.school {
-  font-size: 30px;
-  color: #958c2f;
-}
-
-.business_center {
-  font-size: 30px;
-  color: #958c2f;
-}
-.create {
-  font-size: 30px;
-  color: #958c2f;
-}
-
-.material-icons.adjust {
-  font-size: 12px;
-  color: #958c2f;
-  padding-right: 4%;
 }
 
 
@@ -204,7 +192,7 @@ h3 {
   }
 
   header .photo_hm {
-    background:#958c2f;
+    background: #03A9F4;
 
   }
 
@@ -263,10 +251,11 @@ h3 {
 
   .adresse {
     margin-left: 0em;
-    
+
   }
+
   .date {
     margin: auto;
     width: 6em;
-}
+  }
 }
