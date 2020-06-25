@@ -32,7 +32,7 @@ header .photo_hm {
   text-decoration-color: #03A9F4;
 }
 
-h2,
+
 main h3 {
   text-transform: uppercase;
 }
@@ -40,6 +40,7 @@ main h3 {
 .photo_hm,
 aside {
   flex: 1;
+  
 }
 
 
@@ -54,14 +55,16 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 11em;
+  height: 10em;
+ 
 }
 
 img {
   border-radius: 50%;
   width: 120px;
   height: 120px;
-  box-shadow: 0 0 5px 6px #03A9F4;
+  box-shadow: 0 0 5px 6px #4e7c91;
+  margin-top: 32px;
 }
 
 
@@ -153,9 +156,12 @@ h2 i {
   font-size: 8px;
 
 }
-
+.fa-golf-ball
+{
+  font-size: 20px;
+}
 .adresse {
-  margin: 0 0 0 15%;
+  margin: 0 0 0 13%;
 }
 
 
