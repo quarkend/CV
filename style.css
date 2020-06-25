@@ -100,7 +100,7 @@ aside h3+p {
   margin: auto;
 
   border-radius: 50%;
-  border: 3px solid black;
+  border: 3px solid #263238;
 }
 
 .loisirs {
@@ -120,7 +120,7 @@ aside h3+p {
 
 /*main */
 .colonneprincipale {
-  margin-left: 1.2em;
+  margin-left: 1.5em;
   margin-top: -1em;
   display: flex;
 }
