@@ -33,7 +33,7 @@ header .photo_hm {
 }
 
 
-main h3 {
+main h3,h2 {
   text-transform: uppercase;
 }
 
@@ -55,7 +55,7 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10em;
+
  
 }
 
@@ -178,7 +178,11 @@ h3 {
 
 }
 
+.recomandationcolonne1,
+.recomandationcolonne2 {
+  flex: 1;
 
+}
 
 /*Media Queries*/
 @media (min-width: 768px) and (orientation: landscape) {
@@ -229,11 +233,8 @@ h3 {
 
   }
 
-  .recomandationcolonne1,
-  .recomandationcolonne2 {
-    flex: 1;
+ 
 
-  }
 }
 
 @media screen and (max-width:380px) {
