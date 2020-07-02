@@ -36,7 +36,10 @@ header .photo_hm {
 main h3,h2 {
   text-transform: uppercase;
 }
-
+header h2
+{
+  text-transform: none;
+}
 .photo_hm,
 aside {
   flex: 1;
